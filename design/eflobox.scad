@@ -1,23 +1,39 @@
+
+eb_length = -1;
+eb_width = -1;
+eb_height_inner = -1;
+eb_in_out_diff = -1; 
+min_cut_width = -1;
+
+include <dimensions.scad>;
+
 plywood_4mm = 4;
 plywood_9mm = 9;
 plywood_12mm = 12;
 
-//measurements
-//eb_length = 598;
-//eb_width = 398;
-//eb_height_inner = 130; 
-//eb_in_out_diff = 18;
-
 //https://en.wikipedia.org/wiki/Euro_container
-eb_length = 594;
-eb_width = 396;
-//eb_height_inner = 132.5; 
-eb_height_inner = 132; 
-//eb_height_inner = 167; 
+eb_length_default = 594;
+eb_width_default = 396;
+eb_height_inner_default = 132.5; 
+eb_in_out_diff_default = 20;
+min_cut_width_default = 100;
 
-eb_in_out_diff = 20;
 
-min_cut_width = 100;
+if (eb_length == -1){
+    eb_length = eb_length_default;    
+}
+if (eb_width == -1){
+    eb_width = eb_width_default;
+}
+if (eb_height_inner == -1){
+    eb_height_inner = eb_height_inner_default; 
+}
+if (eb_in_out_diff == -1){
+    eb_in_out_diff = eb_in_out_diff_default; 
+}
+if (min_cut_width == -1){
+    min_cut_width = min_cut_width_default; 
+}
 
 //----------------------
 
