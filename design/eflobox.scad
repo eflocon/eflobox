@@ -1,5 +1,3 @@
-include <data.scad>;
-
 plywood_4mm = 4;
 plywood_9mm = 9;
 plywood_12mm = 12;
@@ -9,8 +7,12 @@ plywood_12mm = 12;
 //eb_width_default = 396;
 //eb_height_inner_default = 132.5; 
 //eb_in_out_diff_default = 20;
+eb_length = 594;
+eb_width = 396;
+eb_height_inner = 132.5; 
+eb_in_out_diff = 20;
 
-min_cut_width_default = 100;
+min_cut_width = 100;
 
 //----------------------
 
