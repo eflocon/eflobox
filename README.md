@@ -1,6 +1,12 @@
 # eflobox
 Scalable box design. Inspired by eurobox standard. Optimised for using available materials and cutting services.
 
+<p align="center">
+  <img src="media/eflobox-ide.png" width="32%">
+  <img src="media/eflobox-single.png" width="32%">
+  <img src="media/eflobox-stacked.png" width="32%">
+</p>
+
 ## software
 
 openscad
